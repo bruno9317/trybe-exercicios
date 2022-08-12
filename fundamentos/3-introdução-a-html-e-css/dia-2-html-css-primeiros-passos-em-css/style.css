@@ -1,0 +1,33 @@
+body{
+    font-size: 16px;
+    font-style:italic;
+    line-height: ;
+
+  }
+        
+  h1{
+      color: orange;
+      font-size: 65px;
+      font-family: sans-serif;
+  }
+  p{
+    font-weight: 600;
+    font-size: 48px;
+    
+  }
+  #amarelo{
+    background-color:yellow;
+  }
+  #vermelho{
+    background-color: red;
+  }
+  #marrom{
+    background-color: brown;
+  }
+
+  .mudar-dupla{
+    background-color: aquamarine;
+    line-height: 20mm;
+
+      
+  }
