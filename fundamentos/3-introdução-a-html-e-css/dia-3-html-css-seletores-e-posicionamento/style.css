@@ -1,0 +1,11 @@
+li:hover{
+    background-color: aqua;
+    width: 100px;
+}
+li:active{
+    color: aliceblue;
+}
+
+h1{
+    left: 800px;
+}
