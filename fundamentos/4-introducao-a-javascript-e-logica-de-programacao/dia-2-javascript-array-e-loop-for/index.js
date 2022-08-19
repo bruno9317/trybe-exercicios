@@ -1,9 +1,6 @@
-let numbers = [5, 9, 3, 19, 70, 8, 100, 2, 35, 27];
-let maiorNumero = numbers[0];
+let numbers = [];
 
-for(let index = 1; index < numbers.length; index++){
-    if(numbers[index] < maiorNumero){
-        maiorNumero = numbers[index]
-    }
+for(let index = 0; index < 25; index++){
+    numbers.push(index + 1)
 }
-console.log(maiorNumero) 
+console.log(numbers) 
