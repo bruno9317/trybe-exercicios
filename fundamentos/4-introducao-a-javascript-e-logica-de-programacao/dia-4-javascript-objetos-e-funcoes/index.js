@@ -7,11 +7,19 @@ let info = {
 //   console.log('Bem-vinda, ' + info['personagem'])
 
   info['recorrente'] = 'sim';
+  
+  let info2 = {
+    personagem: 'Tio Patinhas',
+    origem: 'Christmas on Bear Mountain, Dells Four Color Comics #178',
+    nota: 'O último MacPatinhas',
+    recorrente: 'sim',
+}
 
-//   for(let key in info){
-//     console.log(info[key]);
-//   }
 
   for(let key in info){
-    console.log(key);
+    console.log(info[key] + ' ' + info2[key]);
   }
+
+//   for(let key in info){
+//     console.log(key);
+//   }
