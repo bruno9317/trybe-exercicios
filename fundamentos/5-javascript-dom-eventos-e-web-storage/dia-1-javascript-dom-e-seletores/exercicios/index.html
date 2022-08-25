@@ -45,8 +45,8 @@
         function mudaTexto(tag, index, alteração){
             document.getElementsByTagName(tag)[index].innerText = alteração;
         }
-        function mudaCorDeFundo(elemento, alteração){
-            document.getElementsByClassName(elemento).style.backgroundColor = alteração;
+        function mudaCorDeFundo(elemento, cor){
+            document.getElementsByClassName(elemento).style.backgroundColor = cor;
         }
         /*
         Aqui você vai modificar os elementos já existentes utilizando apenas as funções:
@@ -61,6 +61,7 @@
         6. Crie e execute uma função que exiba o conteúdo de todas as tags <p> no console.
         */
        mudaTexto('p', '1', 'trabalhando');
+       mudaTexto('h1', '0','Exercício 5.1 - JavaScripit')
     </script>
   </body>
 </html>
