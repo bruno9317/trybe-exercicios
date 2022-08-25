@@ -45,6 +45,12 @@
         function mudaTexto(tag, index, alteração){
             document.getElementsByTagName(tag)[index].innerText = alteração;
         }
+        function exibir(tag){
+            let tagsP = document.getElementsByTagName(tag);
+            for(let index = 0;index < tagsP.length; index +=1){
+                console.log(tagsP[index]);
+            }
+        }
         function mudaCorDeFundo(elemento, cor){
             document.getElementsByClassName(elemento).style.backgroundColor = cor;
         }
@@ -62,6 +68,10 @@
         */
        mudaTexto('p', '1', 'trabalhando');
        mudaTexto('h1', '0','Exercício 5.1 - JavaScripit')
+       mudaTexto('h1', '0','Exercício 5.1 - JavaScripit')
+       mudaTexto('p', '0','Texto padrão do nosso site'.toUpperCase())
+       exibir('p');
+
     </script>
   </body>
 </html>
