@@ -1,3 +1,8 @@
+<<<<<<< HEAD
+=======
+let teste = [2, 3, 2, 5, 8, 2, 3];
+
+>>>>>>> exercicios/4.4
 function maisRepetido(array){
     let contador = 0;
     let maiorRepetição = 0;
@@ -16,4 +21,10 @@ function maisRepetido(array){
 
     }   
     return maiorRepetição;
+<<<<<<< HEAD
 }
+=======
+}
+
+console.log(maisRepetido(teste));
+>>>>>>> exercicios/4.4
