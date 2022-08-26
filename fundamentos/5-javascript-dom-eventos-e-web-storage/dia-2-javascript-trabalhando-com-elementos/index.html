@@ -74,16 +74,23 @@
         document.body.lastChild.appendChild(elemento4);
         elemento4.innerText = 'Exercício 5.2 - JavaScript DOM'
 
+        const elemento5 = document.createElement('section');
+        document.body.children[2].appendChild(elemento5);
+        elemento5.clasName = 'left-content';
+
+        const elemento6 = document.createElement('section');
+        document.body.children[2].appendChild(elemento6);
+        elemento6.clasName = 'right-content';
+        
+
+        const elemento7 = document.createElement('img');
+        document.body.children[2].children[2].appendChild(elemento7);
+        elemento7.src = 'https://picsum.photos/200';
 
 
 
 
 
-
-
-
-
-
-    </script>
+        </script>
   </body>
 </html>
