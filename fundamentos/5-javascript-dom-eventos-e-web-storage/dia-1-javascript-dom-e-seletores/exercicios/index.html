@@ -52,8 +52,10 @@
             }
         }
         function mudaCorDeFundo(elemento, cor){
-            document.getElementsByClassName(elemento).style.backgroundColor = cor;
+            document.getElementsByClassName(elemento)[0].style.backgroundColor = cor;
         }
+        mudaCorDeFundo('.main-content', 'green');
+
         /*
         Aqui você vai modificar os elementos já existentes utilizando apenas as funções:
         - document.getElementById()
