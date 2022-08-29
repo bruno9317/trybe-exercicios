@@ -1,4 +1,5 @@
-let teste = [2, 3, 2, 5, 8, 2, 3];
+
+let teste = [2, 3, 2, 5, 8, 2, 3, 5, 5, 5, 5];
 
 function maisRepetido(array){
     let contador = 0;
@@ -10,7 +11,7 @@ function maisRepetido(array){
             }
         }
         if(maiorRepetição < contador){
-            maiorRepetição = array[index];
+            maiorRepetição = contador;
             contador = 0;
         }else{
             contador = 0;
@@ -19,5 +20,4 @@ function maisRepetido(array){
     }   
     return maiorRepetição;
 }
-
 console.log(maisRepetido(teste));
