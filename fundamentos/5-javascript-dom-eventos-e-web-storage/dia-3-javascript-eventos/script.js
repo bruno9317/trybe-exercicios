@@ -18,7 +18,7 @@ function createDaysOfTheWeek() {
 
   function createDaysOfTheMonth(){
     const decemberDaysList = [29, 30, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31];
-  const lista = document.getElementById('days');
+    const lista = document.getElementById('days');
 
   for (let index = 0; index < decemberDaysList.length; index += 1){
     let dia = decemberDaysList[index];
@@ -28,7 +28,7 @@ function createDaysOfTheWeek() {
   }
 }
 
-function addClasseDayAndHoliday(){
+function addClasseS(){
   let listaDeFilhos = document.getElementById('days').children;
   for (let index = 0; index < listaDeFilhos.length; index += 1){
     if(listaDeFilhos[index].innerText === '24' || listaDeFilhos[index].innerText === '31'){
@@ -44,6 +44,17 @@ function addClasseDayAndHoliday(){
 }
 
 createDaysOfTheMonth();
-addClasseDayAndHoliday();
+addClasseS();
 
-  
+// let string = 'feriado';
+// let local1 = document.getElementsByClassName("buttons-container");
+// let criar = document.createElement('p');
+// criar.innerText = string;
+// local1.appendChild(criar);
+function adcionaButao(){
+let p = document.createElement("h3");
+p.innerText = 'Feriados';
+document.body.children[3].appendChild(p);
+document.body.children[3].children[0].setAttribute('id', 'btn-holiday');
+}
+adcionaButao();
