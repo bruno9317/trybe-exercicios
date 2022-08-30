@@ -62,7 +62,7 @@ adcionaButao();
 function recebeClick(){
   let aqui = document.getElementsByClassName("holiday");
 
-  for(let index = 0; index < aqui.length; index += 1){
+  for (let index = 0; index < aqui.length; index += 1) {
     aqui[index].style.backgroundColor = "blue";
     aqui[index].style.color = "red";
   }
@@ -74,4 +74,13 @@ clickF.addEventListener("click", recebeClick2);
 }
 
 click1(recebeClick);
+
+function adcionaButao2(){
+  let p = document.createElement("h3");
+  p.innerText = 'Sexta-feira';
+  document.body.children[3].appendChild(p);
+  document.body.children[3].children[1].setAttribute('id', 'btn-friday');
+}
+adcionaButao2();
+
 
