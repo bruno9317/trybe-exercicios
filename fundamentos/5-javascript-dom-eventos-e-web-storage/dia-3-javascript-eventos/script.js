@@ -68,9 +68,9 @@ function recebeClick(){
   }
 }
 
-function click1(recebeClick2){
+function click1(recebeClick0){
   let clickF = document.getElementById("btn-holiday");
-clickF.addEventListener("click", recebeClick2);
+  clickF.addEventListener("click", recebeClick0);
 }
 
 click1(recebeClick);
@@ -83,4 +83,16 @@ function adcionaButao2(){
 }
 adcionaButao2();
 
+function recebeClick2(){
+  let aqui = document.getElementsByClassName("friday");
+
+  for (let index = 0; index < aqui.length; index += 1) {
+    aqui[index].innerText += ' Sextou';
+  }
+}
+function click2(recebeClick0){
+let clickF = document.getElementById("btn-friday");
+clickF.addEventListener("click", recebeClick0);
+}
+click2(recebeClick2);
 
