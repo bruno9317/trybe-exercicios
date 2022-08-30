@@ -58,3 +58,20 @@ document.body.children[3].appendChild(p);
 document.body.children[3].children[0].setAttribute('id', 'btn-holiday');
 }
 adcionaButao();
+
+function recebeClick(){
+  let aqui = document.getElementsByClassName("holiday");
+
+  for(let index = 0; index < aqui.length; index += 1){
+    aqui[index].style.backgroundColor = "blue";
+    aqui[index].style.color = "red";
+  }
+}
+
+function click1(recebeClick2){
+  let clickF = document.getElementById("btn-holiday");
+clickF.addEventListener("click", recebeClick2);
+}
+
+click1(recebeClick);
+
