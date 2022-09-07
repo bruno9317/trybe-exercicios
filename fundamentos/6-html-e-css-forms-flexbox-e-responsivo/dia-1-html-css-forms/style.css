@@ -1,0 +1,19 @@
+div{
+    margin-top: 15px;
+}
+
+#email{
+    margin-left: 3px;
+}
+#texto{
+}
+textarea {
+    width: 70%;
+    height: 250px;
+    resize: none;
+}
+button{
+    font-size: larger;
+    margin-left: 30px;
+    margin-top: 10px;
+}

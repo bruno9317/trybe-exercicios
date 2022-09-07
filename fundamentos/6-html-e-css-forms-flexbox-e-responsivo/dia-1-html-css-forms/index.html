@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css"/>
+</head>
+<body>
+    <header>
+        <h1>Trybe Trip</h1>
+    </header>
+
+    <main>
+    <form>
+        <fieldset>
+            <legend>Dados Pessoais</legend>
+        <div id="nome-forms">
+            <label for="nome">Nome:</label>
+            <input type="text" name="nome" id="nome" minlength="10" maxlength="40">
+        </div>
+        <div id="email-forms">
+            <label for="email">email:</label>
+            <input type="text" name="email" id="email" minlength="10" maxlength="40">
+        </div>
+    </fieldset>
+        <div id="opçoes">
+            <input type="radio" name="opçao">
+            <label >Opção1</label>
+            <input type="radio" name="opçao">
+            <label >Opção2</label>
+            <input type="radio" name="opçao">
+            <label >Opção3</label>
+            <input type="radio" name="opçao">
+            <label >Opção4</label>
+        </div>
+        <div id="texto">
+            <textarea placeholder="Por que você deveria ser a pessoa desenvolvedora a ganhar o concurso TrybeTrip?"></textarea>
+        </div>
+        <div id="data">
+            <label for="data">Data para a viagem:</label>
+            <input type="text" placeholder="dd/mm/aaaa" name="data">
+        </div>
+        <div id="concordo1">
+            <label>Concordo1</label>
+            <input type="checkbox">
+        </div>
+        <div id="concordo2">
+            <label>Concordo2</label>
+            <input type="checkbox">
+        </div>
+        <div id="butoes">
+            <button>Enviar</button>
+            <button>Apagar</button>
+        </div>
+    </form>
+    </main>
+</body>
+</html>
